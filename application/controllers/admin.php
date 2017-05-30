@@ -26,6 +26,7 @@ class Admin extends CI_Controller {
         $this->load->view('admin/add_major',$var);
     }
     function  search(){
+        // test create function
         
     }
     
