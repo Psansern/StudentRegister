@@ -25,6 +25,9 @@ class Admin extends CI_Controller {
         $var['rs']=$this->Fac_Model->get_fac();
         $this->load->view('admin/add_major',$var);
     }
+    function  search(){
+        
+    }
     
 
 
