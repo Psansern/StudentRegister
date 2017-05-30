@@ -15,11 +15,7 @@
             /* script java บังคับให้ผู้ใช้งานป้อนได้เฉพาะตัวเลขเท่านั้น
              * 
              */
-            function CheckNum() {
-                if (event.keyCode < 48 || event.keyCode > 57) {
-                    event.returnValue = false;
-                }
-            }
+      
        
             function CheckThai(str, obj) {
                 var isThai = true;
@@ -41,7 +37,7 @@
 		 if(document.frm_std.std_id.value.length < 11 || document.frm_std.std_id.value.length > 12)
 		 {
 			alert('รหัสนักศึกษามีความยาว [11 Character] .โปรดตรวจสอบ');
-			return false;
+			return false;  
 		 }
 	}
             
